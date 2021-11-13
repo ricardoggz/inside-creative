@@ -1,0 +1,16 @@
+@import url('../../general-styles/colors.css');
+
+header{
+    width: 100%;
+    box-shadow: 0px 0px 10px #3f3f3f42;
+    background:var(--color-light);
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 4rem;
+}

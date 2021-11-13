@@ -1,5 +1,33 @@
-*{
-  margin:0;
-  padding:0;
+/*colors*/
+@import url("./colors.css");
+
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background: var(--color-light);
+  color: var(--color-dark);
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+/*clase general para contenedores*/
+
+.flex-container{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+@media (min-width:240px) and (max-width:880px){
+  .flex-container{
+    max-width: 90%;
+  }
 }

@@ -1,8 +1,14 @@
+import { NavBar } from "../components/nav-bar/NavBar";
+import { Home } from "../scenes/home/Home";
+import {Footer} from "../components/footer/Footer"
+
 function App() {
   return (
-    <div className="App">
-      <p>inside-creative</p>
-    </div>
+    <>
+      <NavBar />
+      <Home/>
+      <Footer/>
+    </>
   );
 }
 export { App };

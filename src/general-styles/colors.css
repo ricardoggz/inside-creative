@@ -1,5 +1,9 @@
-/*background-colors*/
+/*colors*/
 
+:root{
+    --color-light:#f0eff3;
+    --color-dark:#141414;
+    --button-color:#9c93ac;
+}
 
-/*font-colors*/
-
+/*backgrounds*/
