@@ -1,0 +1,21 @@
+.description-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    align-items: center;
+    text-align: justify;
+    line-height: 2.5rem;
+}
+.description-container>figure> img{
+    width: 100%;
+}
+
+/*responsive*/
+
+@media (min-width:240px) and (max-width:880px){
+
+    .description-container{
+        grid-template-columns: repeat(1,1fr);
+        padding: 3rem 0;
+    }
+}

@@ -4,13 +4,66 @@ header{
     width: 100%;
     box-shadow: 0px 0px 10px #3f3f3f42;
     background:var(--color-light);
+    color:var(--color-dark);
 }
-
 .nav-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.nav-container a{
+    text-decoration: none;
+    color:var(--color-dark);
+}
+.nav-container a:hover{
+    text-decoration: underline;
+}
+
+.nav-container .list-menu li{
+    list-style: none;
+    display: inline;
+    padding: 0 1rem;
+}
+
+.nav-container #menu, .bar-btn{
+    display: none;
+}
 .logo{
-    width: 4rem;
+    width: 3.5rem;
+}
+
+/*responsive*/
+
+@media (min-width:240px) and (max-width:880px){
+
+    .nav-container .list-menu{
+       display: none;
+       top:3.5rem;
+       right: 0;
+       position: absolute;
+    }
+
+    .nav-container .list-menu li{
+        padding: 1.5rem 0;
+     }
+
+    .nav-container .bar-btn{
+        display: flex;
+        font-size:2rem;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .nav-container #menu:checked~.list-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 40vh;
+        background: var(--color-light);
+        color:var(--color-dark);
+    }
+
 }
