@@ -16,7 +16,6 @@ function NavBar (){
                     <ul className="list-menu">
                         <li><Link to="/">Inicio</Link></li>
                         <li><Link to ="/">Conócenos</Link></li>
-                        <li><Link to ="/">Nuestro equipo</Link></li>
                         <li><Link to="/">Contacto</Link></li>
                     </ul>
                 </nav>

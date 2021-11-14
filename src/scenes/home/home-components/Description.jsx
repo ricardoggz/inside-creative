@@ -14,10 +14,10 @@ function Description() {
         <p>
           Somos una empresa encargada de desarrollar estrategias para dar a
           conocer las marcas de nuestros clientes. Realizamos proyectos de
-          marketing, desarrollo web y más. Inside Creative es clave para que tu
-          marca funcione y logre un alcance importante.
+          marketing, desarrollo web, fotografía, video y más. Inside Creative es clave para que tu
+          marca funcione y logre un alcance importante. 😎
         </p>
-        <Button title="¡Quiero un proyecto!"/>
+        <Button title="Empezar con un proyecto"/>
       </div>
       <figure>
         <img src={illustration} alt="loading img" />
