@@ -1,0 +1,24 @@
+.member-card {
+  text-align: justify;
+  height: 20%;
+}
+.member-card>figure{
+    height:20rem;
+}
+.member-card > figure > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.member-card ul li {
+  list-style: none;
+  padding: 0.5rem 0;
+}
+
+/*responsive*/
+
+@media (min-width:240px) and (max-width:880px){
+  .member-card>figure{
+    height: 30rem;
+  }
+}

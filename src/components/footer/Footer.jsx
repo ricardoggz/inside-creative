@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <div className="flex-container social-container">
         <span>
-          <b>Contacto directo:</b>
+          <b>Social :</b>
         </span>
         <ul>
           <li>
