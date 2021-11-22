@@ -10,8 +10,8 @@ function MemberCard(props) {
       <div>
         <ul>
             <li>{props.name}</li>
-            <li>-{props.rol}</li>
-            <li>-{props.job}</li>
+            <li>{props.rol}</li>
+            <li>{props.job}</li>
         </ul>
       </div>
     </div>

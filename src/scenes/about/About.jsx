@@ -4,13 +4,15 @@ import "./about-styles/about.css";
 import { MemberCard } from "./about-components/MemberCard";
 
 //img
-import imgMember from "../../img/imgAbout/member-inside.jpg";
-import imgMember2 from "../../img/imgAbout/member-inside-2.jpg";
-import imgMember3 from "../../img/imgAbout/member-inside-3.jpg";
+import imgMember from "../../img/imgAbout/member-vania.png";
+import imgMember2 from "../../img/imgAbout/member-daniel.png";
+import imgMember3 from "../../img/imgAbout/member-ricardo.png";
 
 function About() {
   return (
     <section className="flex-container about-container">
+      <h1>El equipo de Inside Creative</h1>
+      <div className="about-cards-container">
       <MemberCard
         img={imgMember}
         name="Vania Cervantes"
@@ -29,6 +31,7 @@ function About() {
         rol="Creador de contenido digital y desarrollador web"
         job="Co fundador de Inside Creative"
       />
+      </div>
     </section>
   );
 }

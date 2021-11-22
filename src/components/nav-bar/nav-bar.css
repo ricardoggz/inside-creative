@@ -2,7 +2,6 @@
 
 header{
     width: 100%;
-    box-shadow: 0px 0px 10px #3f3f3f42;
     background:var( --color-secondary-light);
     color:var(--color-dark);
 }
