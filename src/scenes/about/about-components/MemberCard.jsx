@@ -9,9 +9,11 @@ function MemberCard(props) {
       </figure>
       <div>
         <ul>
-            <li>{props.name}</li>
+            <li><b>{props.name}</b></li>
             <li>{props.rol}</li>
             <li>{props.job}</li>
+            <li>{props.price}</li>
+            <li>{props.button}</li>
         </ul>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import illustration from "../../../img/imgHome/illustration.png";
 import "../home-styles/description.css";
 
@@ -14,10 +15,12 @@ function Description() {
         <p>
           Somos una empresa encargada de desarrollar estrategias para dar a
           conocer las marcas de nuestros clientes. Realizamos proyectos de
-          marketing, desarrollo web, fotografía, video y más. Inside Creative es clave para que tu
-          marca funcione y logre un alcance importante. 😎
+          marketing, desarrollo web, fotografía, video y más. Inside Creative es
+          clave para que tu marca funcione y logre un alcance importante. 😎
         </p>
-        <Button title="Empezar con un proyecto"/>
+        <Link to="/services">
+          <Button title="Empezar con un proyecto" />
+        </Link>
       </div>
       <figure>
         <img src={illustration} alt="loading img" />

@@ -9,13 +9,20 @@ function Footer() {
         </span>
         <ul>
           <li>
-            Instagram:{" "}
-            <a href="https://www.instagram.com/insidecreative__/" target="blank">
-              @insidecreative_
+            Instagram:
+            <a
+              href="https://www.instagram.com/insidecreative__/"
+              target="blank"
+            >
+               @insidecreative_
             </a>
           </li>
-          <li>Facebook: </li>
-          <li>Mail: </li>
+          <li>
+            Facebook:
+            <a href="https://www.facebook.com/InsideCreative1" target="blank">
+               Inside Creative
+            </a>
+          </li>
         </ul>
       </div>
       <div className="copyright">&copy; Hecho con 💜 por Inside Creative</div>
