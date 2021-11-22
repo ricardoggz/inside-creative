@@ -5,7 +5,7 @@ function MemberCard(props) {
   return (
     <div className="member-card">
       <figure>
-        <img src={props.img} />
+        <img src={props.img} alt="loading" />
       </figure>
       <div>
         <ul>
